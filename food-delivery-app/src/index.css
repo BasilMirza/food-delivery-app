@@ -1,0 +1,122 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400&display=swap');
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  text-decoration: none;
+}
+li {
+  display: inline;
+}
+li:hover {
+  outline: none;
+}
+
+body {
+  font-family: 'Poppins', sans-serif;
+}
+
+.container-navbar {
+  background-color: grey;
+  display: flex;
+  justify-content: space-around;
+  max-width: 100%;
+  overflow: auto;
+  min-height: 50px;
+}
+
+.form-control {
+  margin: 20px 0;
+}
+
+.form-group label {
+  display: block;
+}
+
+.login-div{
+  margin-top: 50px;
+  margin-left: 500px;
+}
+
+.register-div{
+  margin-top: 50px;
+  margin-left: 500px;
+}
+
+.form-group input {
+  width: 45%;
+  height: 40px;
+  margin: 5px;
+  padding: 3px 7px;
+  font-size: 17px;
+}
+
+.btn-form {
+  display: inline-block;
+  background: #000;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  margin: 5px;
+  border-radius: 5px;
+  cursor: pointer;
+  text-decoration: none;
+  font-size: 15px;
+  font-family: inherit;
+}
+.btnlink {
+  display: inline-block;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  /* margin: 5px; */
+  /* border-radius: 5px; */
+  cursor: pointer;
+  text-decoration: none;
+  font-size: 16px;
+  font-family: inherit;
+}
+
+.btn:focus {
+  outline: none;
+}
+
+.btn-form:active {
+  transform: scale(0.98);
+}
+
+.btn-block {
+  display: block;
+  width: 100%;
+}
+
+.login {
+  display: inline-block;
+  background: rgb(100, 145, 100);
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  margin: 5px;
+  border-radius: 5px;
+  cursor: pointer;
+  text-decoration: none;
+  font-size: 15px;
+  font-family: inherit;
+}
+
+.welcomenote {
+  text-align: center;
+}
+.cardnote {
+  margin-left: 400px;
+}
+
+/* ABC */
+
+
